@@ -1,6 +1,6 @@
-# DataGrid Project
+# DataGrid QML
 
-A DataGrid component developed in QML for Qt applications.
+A simple and lightweight DataGrid component built with QML.
 
 ## Screenshot
 
@@ -8,18 +8,30 @@ A DataGrid component developed in QML for Qt applications.
 
 ## Description
 
-This project implements a custom DataGrid with modern features for displaying and manipulating tabular data.
+A clean and minimal DataGrid implementation using QML ListView with column layout. Perfect for small to medium datasets where simplicity is key.
 
-**⚠️ Project Status: Under Development**  
-This project is currently in active development. Features may be incomplete.
+**⚠️ Project Status: Early Development**  
+Basic functionality is working, but more features are being added.
 
 ## Features
 
-- Data visualization in table format
-- Custom model for data management  
-- Proxy model for filtering and sorting
-- Interface developed in QML
+- Lightweight ListView-based implementation
+- Simple column-based layout
+- Custom header row
+- Easy to customize and extend
+- No external dependencies beyond Qt
+
+## 🚀 Fully Open Source
+
+This project is completely open source! Feel free to use, modify, and distribute as you need.
 
 ## Development
 
-Project developed using Qt, QML and C++.C++.
+Built with Qt6, QML, and C++. The code is intentionally kept simple and readable.
+
+## Getting Started
+
+```bash
+git clone https://github.com/kastico/DataGrid.git
+cd DataGrid
+# Open with Qt Creator or build with CMakeed using Qt, QML and C++.C++.
