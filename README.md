@@ -17,7 +17,9 @@ Basic functionality is working, but more features are being added.
 
 - Lightweight ListView-based implementation
 - Simple column-based layout
-- Custom header row
+- Horizontal and vertical scrolling
+- **Fully customizable headers**: column position, visibility, and width
+- **QSettings integration**: automatically saves and restores column layout preferences
 - Easy to customize and extend
 - No external dependencies beyond Qt
 
@@ -34,4 +36,4 @@ Built with Qt6, QML, and C++. The code is intentionally kept simple and readable
 ```bash
 git clone https://github.com/kastico/DataGrid.git
 cd DataGrid
-# Open with Qt Creator or build with CMakeed using Qt, QML and C++.C++.
+# Open with Qt Creator or build with CMakeator or build with CMakeed using Qt, QML and C++.C++.
